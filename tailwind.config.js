@@ -3,7 +3,7 @@ module.exports = {
 		extend: {}
 	},
 	variants: {
-		backgroundColor: ["active"]
+		backgroundColor: ["responsive", "hover", "focus", "active"] // order matters!!!
 	},
 	plugins: []
 };
