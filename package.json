@@ -9,6 +9,7 @@
 		"tailwindcss": "^1.1.2"
 	},
 	"scripts": {
-		"build": "postcss src/styles.css -o public/styles.css"
+		"build": "postcss src/styles.css -o public/styles.css",
+		"watch": "postcss src/styles.css -o public/styles.css --watch"
 	}
 }
